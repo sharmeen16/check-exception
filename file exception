@@ -1,0 +1,12 @@
+public class MySpecialNumberChecker {
+    public static void myfunc(int x) throws MySpecialNumberException {
+        if (x == 10) {
+            throw new MySpecialNumberException("Input value is 10: This is a special case.");
+        } else if (x == 20) {
+            throw new MySpecialNumberException("Input value is 20: This is another special case.");
+        } else if (x == 30) {
+            throw new MySpecialNumberException("Input value is 30: Yet another special case.");
+        }
+        // Other code for myfunc
+    }
+}
